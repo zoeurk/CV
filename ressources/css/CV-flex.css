@@ -1,0 +1,881 @@
+@font-face {
+	font-family:'KaushanScript-Regular';
+	src:url('../../ressources/fonts/kaushan/KaushanScript-Regular.otf') format('opentype');
+	font-weight:normal;
+}
+@font-face {
+	font-family:'CaviarDreamsBold';
+	src:url('../../resources/fonts/CaviarDreams/Caviar_Dreams_Bold.ttf') format('truetype');
+	font-weight:bold;
+}
+@font-face {
+	font-family:'CaviarDreamsBoldItalic';
+	src:url('../../ressources/fonts/CaviarDreams/CaviarDreams_BoldItalic.ttf') format('truetype');
+	font-weight:bolditalic;
+}
+@font-face {
+	font-family:'CaviarDreamsItalic';
+	src:url('../../ressources/fonts/CaviarDreams/CaviarDreams_Italic.ttf') format('truetype');
+	font-weight:italic;
+}
+@font-face {
+	font-family:'CaviarDreams';
+	src:url('../../ressources/fonts/CaviarDreams/CaviarDreams.ttf') format('truetype');
+	font-weight:normal;
+}
+@font-face {
+	font-family:'PlayFairBold';
+	src:url('../../ressources/fonts/PlayFairDisplay/PlayfairDisplay-Bold.otf') format('opentype');
+	font-weight:bold;
+}
+@font-face {
+	font-family:'PlayFairBoldItalic';
+	src:url('../../ressources/fonts/PlayFairDisplay/PlayfairDisplay-BoldItalic.otf') format('opentype');
+	font-weight:bolditalic;
+}
+@font-face {
+	font-family:'PlayFairItalic';
+	src:url('../../ressources/fonts/PlayFairDisplay/PlayfairDisplay-Italic.otf') format('opentype');
+	font-weight:italic;
+}
+@font-face {
+	font-family:'PlayFair';
+	src:url('../../ressources/fonts/PlayFairDisplay/PlayfairDisplay-Regular.otf') format('opentype');
+	font-weight:normal;
+}
+@font-face {
+	font-family:'Champagne';
+	src:url('../../ressources/fonts/Champagne/cac_champagne.ttf') format('truetype');
+	font-weight:normal;
+}
+@font-face {
+	font-family:'Roboto-Black';
+	src:url('../../fonts/Roboto/Roboto-Black.ttf') format('truetype');
+	font-weight:normal;
+}
+@font-face {
+	font-family:'Roboto-Black';
+	src:url('../../ressources/fonts/Roboto/Roboto-BlackItalic.ttf') format('truetype');
+	font-weight:italic;
+}
+@font-face {
+	font-family:'Roboto';
+	src:url('../../ressources/fonts/Roboto/Roboto-Bold.ttf') format('truetype');
+	font-weight:bold;
+}
+@font-face {
+	font-family:'Roboto';
+	src:url('../../ressources/fonts/Roboto/Roboto-BoldItalic.ttf') format('truetype');
+	font-weight:bolditalic;
+}
+@font-face {
+	font-family:'RobotoCondensed';
+	src:url('../../ressources/fonts/Roboto/RobotoCondensed-Bold.ttf') format('truetype');
+	font-weight:bold;
+}
+@font-face {
+	font-family:'RobotoCondensed';
+	src:url('../../ressources/fonts/Roboto/RobotoCondensed-BoldItalic.ttf') format('truetype');
+	font-weight:bolditalic;
+}
+@font-face {
+	font-family:'RobotoCondensed';
+	src:url('../../ressources/fonts/Roboto/RobotoCondensed-Italic.ttf') format('truetype');
+	font-weight:italic;
+}
+@font-face {
+	font-family:'RobotoCondensed-Light';
+	src:url('../../ressources/fonts/Roboto/RobotoCondensed-Light.ttf') format('truetype');
+	font-weight:normal;
+}
+@font-face {
+	font-family:'RobotoCondensed-Light';
+	src:url('../../ressources/fonts/Roboto/RobotoCondensed-LightItalic.ttf') format('truetype');
+	font-weight:italic;
+}
+@font-face {
+	font-family:'RobotoCondensed-Regular';
+	src:url('../../ressources/fonts/Roboto/RobotoCondensed-Regular.ttf') format('truetype');
+	font-weight:normal;
+}
+@font-face {
+	font-family:'Roboto';
+	src:url('../../ressources/fonts/Roboto/Roboto-Italic.ttf') format('truetype');
+	font-weight:italic;
+}
+@font-face {
+	font-family:'Roboto-Light';
+	src:url('../../ressources/fonts/Roboto/Roboto-Light.ttf') format('truetype');
+	font-weight:normal;
+}
+@font-face {
+	font-family:'Roboto-Light';
+	src:url('../../ressources/fonts/Roboto/Roboto-LightItalic.ttf') format('truetype');
+	font-weight:italic;
+}
+@font-face {
+	font-family:'Roboto-Medium';
+	src:url('../../ressources/fonts/Roboto/Roboto-Medium.ttf') format('truetype');
+	font-weight:medium;
+}
+@font-face {
+	font-family:'Roboto-Medium';
+	src:url('../../ressources/fonts/Roboto/Roboto-MediumItalic.ttf') format('truetype');
+	font-weight:italic;
+}
+@font-face {
+	font-family:'Roboto-Regular';
+	src:url('../../ressources/fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+	font-weight:normal;
+}
+@font-face {
+	font-family:'Roboto-Thin';
+	src:url('../../ressources/fonts/Roboto/Roboto-Thin.ttf') format('truetype');
+	font-weight:normal;
+}
+@font-face {
+	font-family:'Roboto-Thin';
+	src:url('../../ressources/fonts/Roboto/Roboto-ThinItalic.ttf') format('truetype');
+	font-weight:italic;
+}
+@font-face{
+	font-family:'DeliaBold'
+	src:url('../../ressources/fonts/Delia/Delia Bold.ttf');
+	font-weight: bold;
+}
+@font-face{
+	font-family:'DeliaRegular'
+	src:url('../../ressources/fonts/Delia/Delia regular.ttf');
+	font-weight: regular;
+}
+body{
+	margin:0px;
+	height:100%;
+	width:100%;
+	font-family:Roboto-Regular;
+}
+#main{
+	display:flex;
+	
+}
+#misc{
+	float:right;
+	margin-left:auto;
+	margin-right:5%;
+	margin-top:0px;
+	font-family:PlayFairItalic;
+	font-size:24px;
+	height:75px;
+	width:200px;
+}
+#contact{
+	float:left;
+	height:125px;
+	width:215px;
+}
+.flex_exp{
+	display:flex;
+	margin-right:5%;
+	margin-left:5%;
+	width:90%;
+	overflow:hidden;
+	justify-content:center;
+	text-align:center;
+	align-items:flex-start;
+}
+.line{
+	height:1px;
+}
+.comp_title{
+	text-align:center;
+	font-family:Roboto-Regular;
+}
+.competence{
+	width:100%;
+	text-align:left;
+	font-family:Roboto-Regular;
+}
+.bar{
+	width:100%;
+	font-family:Roboto-Regular;
+}
+.mydate{
+	text-align:left;
+	width:20%;
+	font-family:Roboto-Regular;
+}
+.myposte{
+	width:40%;
+	text-align:left;
+	font-family:Roboto-Regular;
+}
+.myemployeur{
+	width:40%;
+	text-align:right;
+	font-family:Roboto-Regular;
+}
+.myactivity{
+	text-align:right;
+	width:75%;
+	font-family:Roboto-Regular;
+}
+.mypassion{
+	text-align:left;
+	width:75%;
+	font-family:Roboto-Regular;
+}
+.what{
+	text-align:left;
+	width:25%;
+	font-family:Roboto-Regular;
+}
+.passion{
+	font-family:PlayFairBoldItalic;
+}
+#email{
+	margin-top:5px;
+	float:right;
+	padding-right:5%;
+}
+#arbre{
+	display:inline;
+	width:100%;
+	height:256;
+	color:lightblue;
+}
+#nature{
+	position:relative;
+	top:50px;
+}
+/*#arbre{
+	 display:inline;
+}*/
+#CV{
+	display:flex;
+	flex-direction:column;
+	position:relative;
+	top:50px;
+	width:100%;
+	height:500px;
+	background-color:lightblue;
+	background-image:url(../../ressources/images/arbre.png);
+	background-repeat:no-repeat;
+	background-position:25% 25%;
+}
+.boundary{
+	width:100%;
+	height:150px;
+	background-color:lightblue;
+}
+.identite,
+.about,
+.menu_general
+{
+	list-style-type:none;
+}
+.about{
+	font-size:75%;
+}
+#mytree :hover{
+	opacity:1;
+	background-color:red;
+	display:none;
+}
+#mytree :hover >span{
+	opacity:1;
+	background-color:red;
+	color:red;
+	display:none;
+}
+#titre{
+	position:absolute;
+	right:0;
+	left:0;
+	margin-top:auto;
+	margin-left:10%;
+	margin-right:10%;
+	text-align:center;
+	background-color:lightgrey;
+	font-family:KaushanScript-Regular;
+	height:50px;
+}
+#menu{
+	padding-top:8px;
+	padding-bottom:8px;
+	position:relative;
+	display:table;
+	top:50px;
+	width:100%;
+	background-color:grey;
+	text-align:center;
+	height:25px;
+	width:100%;
+	overflow:hidden;
+}
+#menu_general{
+	margin:0;
+	vertical-align:middle;
+	overflow:hidden;
+}
+.menu_general_list {
+	display:inline-block;
+	float:none;
+	margin-right:5%;
+	margin-left:5%;
+	text-align:center;
+	font-family:DeliaBold;
+	font-size:24px;
+	width:90%;
+}
+a:active{
+	color:lightblue;
+	background-color:darkgrey;
+}
+a:visited{
+	color:black;
+}
+a:hover{
+	cursor:pointer;
+}
+.contents {
+	display:none;
+	width:100%;
+	height:100%;
+	margin:0px;
+	background-color:lightblue;
+}
+#competences_thomas_marsaleix:target{
+	display:block;
+}
+#experiences_thomas_marsaleix:target{
+	display:block;
+}
+#formations_thomas_marsaleix:target{
+	display:block;
+}
+#interets_thomas_marsaleix:target{
+	display:block;
+}
+h3{
+	position:relative;
+	text-align:center;
+	font-family:PlayFairBold;
+	width:100%;
+	top:auto;
+	height:25px;
+}
+#retour_haut{
+	float:left;
+	margin-top:50px;
+	bottom:0px;
+	width:100%;
+	height:40px;
+	margin:auto;
+	/*margin-right:auto;*/
+	background-color:lightblue;
+	/*margin-top:0px;*/
+	/*margin-left:15%;*/
+}
+#haut_de_page{
+	float:left;
+	bottom:0;
+	margin-bottom:0;
+	padding-bottom:0;
+	margin:auto 50%;
+	font-family:champagne;
+	font-size:32px;
+}
+footer{
+	position:relative;
+	top:auto;
+	margin-top:auto;
+	height:250px;
+	width:100%;
+	background-color:lightblue;
+}
+#email{
+	position:relative;
+	float:right;
+	padding-left:5%;
+}
+#site_maison{
+	position:relative;
+	float:left;
+	/*background-color:lightblue;*/
+	margin-left:5%;
+	margin-top:0px;
+}
+#htmlprogressbar{
+	float:right;
+	margin-right:0%;
+	width:300px;
+	height:16px;
+	background-color:cyan;
+	border-radius:16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    box-shadow: inset 1px 1px 2px darkblue,inset 1px 1px 2px darkblue;
+    -webkit-box-shadow: inset 1px 1px 2px darkblue, 1px 1px 2px darkblue;
+    -moz-box-shadow: inset 1px 1px 2px darkblue, 1px 1px 2px darkblue;
+}
+#htmlprogressbar::before { 
+    content: '';
+    display: block;
+    position: absolute;
+    width:200px;
+    height: 16px;
+    background-color: orange;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    box-shadow: inset 0 1px 2px darkblue, inset 0 -1px 2px darkblue;
+    -webkit-box-shadow: inset 0 1px 2px darkblue, inset 0 -1px 2px darkblue;
+    -moz-box-shadow: inset 0 1px 2px darkblue, inset 0 -1px 2px darkblue;
+}
+#cssprogressbar{
+	float:right;
+	margin-right:0;
+	width:300px;
+	height:16px;
+	background-color:cyan;
+	border-radius:16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    box-shadow: inset 0 1px 2px darkblue,inset 0 1px 2px darkblue;
+    -webkit-box-shadow: inset 0 1px 2px darkblue, 0 1px 2px darkblue;
+    -moz-box-shadow: inset 0 1px 2px darkblue, 0 1px 2px darkblue;
+}
+#cssprogressbar::before { 
+    content: '';
+    display: block;
+    position: absolute;
+    width: 200px;
+    height: 16px;
+    background-color: orange;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    box-shadow: inset 0 1px 2px darkblue, inset 0 -1px 2px darkblue;
+    -webkit-box-shadow: inset 0 1px 2px darkblue, inset 0 -1px 2px darkblue;
+    -moz-box-shadow: inset 0 1px 2px darkblue, inset 0 -1px 2px darkblue;
+}
+#javascriptprogressbar{
+	float:right;
+	margin-right:0;
+	width:300px;
+	height:16px;
+	background-color:cyan;
+	border-radius:16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    box-shadow: inset 0 1px 2px darkblue,inset 0 1px 2px darkblue;
+    -webkit-box-shadow: inset 0 1px 2px darkblue, 0 1px 2px darkblue;
+    -moz-box-shadow: inset 0 1px 2px darkblue, 0 1px 2px darkblue;
+}
+#javascriptprogressbar::before { 
+    content: '';
+    display: block;
+    position: absolute;
+    width: 175px;
+    height: 16px;
+    background-color: orange;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    box-shadow: inset 0 1px 2px darkblue, inset 0 -1px 2px darkblue;
+    -webkit-box-shadow: inset 0 1px 2px darkblue, inset 0 -1px 2px darkblue;
+    -moz-box-shadow: inset 0 1px 2px darkblue, inset 0 -1px 2px darkblue;
+}
+#phpprogressbar{
+	float:right;
+	margin-right:0;
+	width:300px;
+	height:16px;
+	background-color:cyan;
+	border-radius:16px;
+	-webkit-border-radius: 16px;
+	-moz-border-radius: 16px;
+	box-shadow: inset 0 1px 2px darkblue,inset 0 1px 2px darkblue;
+	-webkit-box-shadow: inset 0 1px 2px darkblue, 0 1px 2px darkblue;
+	-moz-box-shadow: inset 0 1px 2px darkblue, 0 1px 2px darkblue;
+}
+#phpprogressbar::before { 
+    content: '';
+    display: block;
+    position: absolute;
+    width: 175px;
+    height: 16px;
+    background-color: orange;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    box-shadow: inset 0 1px 2px darkblue, inset 0 -1px 2px darkblue;
+    -webkit-box-shadow: inset 0 1px 2px darkblue, inset 0 -1px 2px darkblue;
+    -moz-box-shadow: inset 0 1px 2px darkblue, inset 0 -1px 2px darkblue;
+}
+#mysqlprogressbar{
+	float:right;
+	margin-right:0;
+	width:300px;
+	height:16px;
+	background-color:cyan;
+	border-radius:16px;
+	-webkit-border-radius: 16px;
+	-moz-border-radius: 16px;
+	box-shadow: inset 0 1px 2px darkblue,inset 0 1px 2px darkblue;
+	-webkit-box-shadow: inset 0 1px 2px darkblue, 0 1px 2px darkblue;
+	-moz-box-shadow: inset 0 1px 2px darkblue, 0 1px 2px darkblue;
+}
+#mysqlprogressbar::before { 
+	content: '';
+	display: block;
+	position: absolute;
+	width: 150px;
+	height: 16px;
+	background-color: orange;
+	border-radius: 16px;
+	-webkit-border-radius: 16px;
+	-moz-border-radius: 16px;
+	box-shadow: inset 0 1px 2px darkblue, inset 0 -1px 2px darkblue;
+	-webkit-box-shadow: inset 0 1px 2px darkblue, inset 0 -1px 2px darkblue;
+	-moz-box-shadow: inset 0 1px 2px darkblue, inset 0 -1px 2px darkblue;
+}
+#bootstrapprogressbar{
+	float:right;
+	margin-right:0;
+	width:300px;
+	height:16px;
+	background-color:cyan;
+	border-radius:16px;
+	-webkit-border-radius: 16px;
+	-moz-border-radius: 16px;
+	box-shadow: inset 0 1px 2px darkblue,inset 0 1px 2px darkblue;
+	-webkit-box-shadow: inset 0 1px 2px darkblue, 0 1px 2px darkblue;
+	-moz-box-shadow: inset 0 1px 2px darkblue, 0 1px 2px darkblue;
+}
+#bootstrapprogressbar::before { 
+    content: '';
+    display: block;
+    position: absolute;
+    width: 150px;
+    height: 16px;
+    background-color: orange;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    box-shadow: inset 0 1px 2px darkblue, inset 0 -1px 2px darkblue;
+    -webkit-box-shadow: inset 0 1px 2px darkblue, inset 0 -1px 2px darkblue;
+    -moz-box-shadow: inset 0 1px 2px darkblue, inset 0 -1px 2px darkblue;
+}
+#wordpressprogressbar{
+	float:right;
+	margin-right:0;
+	width:300px;
+	height:16px;
+	background-color:cyan;
+	border-radius:16px;
+	-webkit-border-radius: 16px;
+	-moz-border-radius: 16px;
+	box-shadow: inset 0 1px 2px darkblue,inset 0 1px 2px darkblue;
+	-webkit-box-shadow: inset 0 1px 2px darkblue, 0 1px 2px darkblue;
+	-moz-box-shadow: inset 0 1px 2px darkblue, 0 1px 2px darkblue;
+}
+#wordpressprogressbar::before { 
+	content: '';
+	display: block;
+	position: absolute;
+	width: 50px;
+	height: 16px;
+	background-color: orange;
+	border-radius: 16px;
+	-webkit-border-radius: 16px;
+	-moz-border-radius: 16px;
+	box-shadow: inset 0 1px 2px darkblue, inset 0 -1px 2px darkblue;
+	-webkit-box-shadow: inset 0 1px 2px darkblue, inset 0 -1px 2px darkblue;
+	-moz-box-shadow: inset 0 1px 2px darkblue, inset 0 -1px 2px darkblue;
+}
+#googleprogressbar{
+	float:right;
+	margin-right:0;
+	width:300px;
+	height:16px;
+	background-color:cyan;
+	border-radius:16px;
+	-webkit-border-radius: 16px;
+	-moz-border-radius: 16px;
+	box-shadow: inset 0 1px 2px darkblue,inset 0 1px 2px darkblue;
+	-webkit-box-shadow: inset 0 1px 2px darkblue, 0 1px 2px darkblue;
+	-moz-box-shadow: inset 0 1px 2px darkblue, 0 1px 2px darkblue;
+}
+#googleprogressbar::before { 
+	content: '';
+	display: block;
+	position: absolute;
+	width: 225px;
+	height: 16px;
+	background-color: orange;
+	border-radius: 16px;
+	-webkit-border-radius: 16px;
+	-moz-border-radius: 16px;
+	box-shadow: inset 0 1px 2px darkblue, inset 0 -1px 2px darkblue;
+	-webkit-box-shadow: inset 0 1px 2px darkblue, inset 0 -1px 2px darkblue;
+	-moz-box-shadow: inset 0 1px 2px darkblue, inset 0 -1px 2px darkblue;
+}
+@media screen and (max-width:768px){
+	#htmlprogressbar{
+	float:right;
+	margin-right:0%;
+	width:100px;
+	height:16px;
+	background-color:cyan;
+	border-radius:16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    box-shadow: inset 1px 1px 2px darkblue,inset 1px 1px 2px darkblue;
+    -webkit-box-shadow: inset 1px 1px 2px darkblue, 1px 1px 2px darkblue;
+    -moz-box-shadow: inset 1px 1px 2px darkblue, 1px 1px 2px darkblue;
+}
+#htmlprogressbar::before { 
+    content: '';
+    display: block;
+    position: absolute;
+    width:70px;
+    height: 16px;
+    background-color: orange;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    box-shadow: inset 0 1px 2px darkblue, inset 0 -1px 2px darkblue;
+    -webkit-box-shadow: inset 0 1px 2px darkblue, inset 0 -1px 2px darkblue;
+    -moz-box-shadow: inset 0 1px 2px darkblue, inset 0 -1px 2px darkblue;
+}
+#cssprogressbar{
+	float:right;
+	margin-right:0;
+	width:100px;
+	height:16px;
+	background-color:cyan;
+	border-radius:16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    box-shadow: inset 0 1px 2px darkblue,inset 0 1px 2px darkblue;
+    -webkit-box-shadow: inset 0 1px 2px darkblue, 0 1px 2px darkblue;
+    -moz-box-shadow: inset 0 1px 2px darkblue, 0 1px 2px darkblue;
+}
+#cssprogressbar::before { 
+    content: '';
+    display: block;
+    position: absolute;
+    width: 70px;
+    height: 16px;
+    background-color: orange;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    box-shadow: inset 0 1px 2px darkblue, inset 0 -1px 2px darkblue;
+    -webkit-box-shadow: inset 0 1px 2px darkblue, inset 0 -1px 2px darkblue;
+    -moz-box-shadow: inset 0 1px 2px darkblue, inset 0 -1px 2px darkblue;
+}
+#javascriptprogressbar{
+	float:right;
+	margin-right:0;
+	width:100px;
+	height:16px;
+	background-color:cyan;
+	border-radius:16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    box-shadow: inset 0 1px 2px darkblue,inset 0 1px 2px darkblue;
+    -webkit-box-shadow: inset 0 1px 2px darkblue, 0 1px 2px darkblue;
+    -moz-box-shadow: inset 0 1px 2px darkblue, 0 1px 2px darkblue;
+}
+#javascriptprogressbar::before { 
+    content: '';
+    display: block;
+    position: absolute;
+    width: 65px;
+    height: 16px;
+    background-color: orange;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    box-shadow: inset 0 1px 2px darkblue, inset 0 -1px 2px darkblue;
+    -webkit-box-shadow: inset 0 1px 2px darkblue, inset 0 -1px 2px darkblue;
+    -moz-box-shadow: inset 0 1px 2px darkblue, inset 0 -1px 2px darkblue;
+}
+#phpprogressbar{
+	float:right;
+	margin-right:0;
+	width:100px;
+	height:16px;
+	background-color:cyan;
+	border-radius:16px;
+	-webkit-border-radius: 16px;
+	-moz-border-radius: 16px;
+	box-shadow: inset 0 1px 2px darkblue,inset 0 1px 2px darkblue;
+	-webkit-box-shadow: inset 0 1px 2px darkblue, 0 1px 2px darkblue;
+	-moz-box-shadow: inset 0 1px 2px darkblue, 0 1px 2px darkblue;
+}
+#phpprogressbar::before { 
+    content: '';
+    display: block;
+    position: absolute;
+    width: 65px;
+    height: 16px;
+    background-color: orange;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    box-shadow: inset 0 1px 2px darkblue, inset 0 -1px 2px darkblue;
+    -webkit-box-shadow: inset 0 1px 2px darkblue, inset 0 -1px 2px darkblue;
+    -moz-box-shadow: inset 0 1px 2px darkblue, inset 0 -1px 2px darkblue;
+}
+#mysqlprogressbar{
+	float:right;
+	margin-right:0;
+	width:100px;
+	height:16px;
+	background-color:cyan;
+	border-radius:16px;
+	-webkit-border-radius: 16px;
+	-moz-border-radius: 16px;
+	box-shadow: inset 0 1px 2px darkblue,inset 0 1px 2px darkblue;
+	-webkit-box-shadow: inset 0 1px 2px darkblue, 0 1px 2px darkblue;
+	-moz-box-shadow: inset 0 1px 2px darkblue, 0 1px 2px darkblue;
+}
+#mysqlprogressbar::before { 
+	content: '';
+	display: block;
+	position: absolute;
+	width: 65px;
+	height: 16px;
+	background-color: orange;
+	border-radius: 16px;
+	-webkit-border-radius: 16px;
+	-moz-border-radius: 16px;
+	box-shadow: inset 0 1px 2px darkblue, inset 0 -1px 2px darkblue;
+	-webkit-box-shadow: inset 0 1px 2px darkblue, inset 0 -1px 2px darkblue;
+	-moz-box-shadow: inset 0 1px 2px darkblue, inset 0 -1px 2px darkblue;
+}
+#bootstrapprogressbar{
+	float:right;
+	margin-right:0;
+	width:100px;
+	height:16px;
+	background-color:cyan;
+	border-radius:16px;
+	-webkit-border-radius: 16px;
+	-moz-border-radius: 16px;
+	box-shadow: inset 0 1px 2px darkblue,inset 0 1px 2px darkblue;
+	-webkit-box-shadow: inset 0 1px 2px darkblue, 0 1px 2px darkblue;
+	-moz-box-shadow: inset 0 1px 2px darkblue, 0 1px 2px darkblue;
+}
+#bootstrapprogressbar::before { 
+    content: '';
+    display: block;
+    position: absolute;
+    width: 45px;
+    height: 16px;
+    background-color: orange;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    box-shadow: inset 0 1px 2px darkblue, inset 0 -1px 2px darkblue;
+    -webkit-box-shadow: inset 0 1px 2px darkblue, inset 0 -1px 2px darkblue;
+    -moz-box-shadow: inset 0 1px 2px darkblue, inset 0 -1px 2px darkblue;
+}
+#wordpressprogressbar{
+	float:right;
+	margin-right:0;
+	width:100px;
+	height:16px;
+	background-color:cyan;
+	border-radius:16px;
+	-webkit-border-radius: 16px;
+	-moz-border-radius: 16px;
+	box-shadow: inset 0 1px 2px darkblue,inset 0 1px 2px darkblue;
+	-webkit-box-shadow: inset 0 1px 2px darkblue, 0 1px 2px darkblue;
+	-moz-box-shadow: inset 0 1px 2px darkblue, 0 1px 2px darkblue;
+}
+#wordpressprogressbar::before { 
+	content: '';
+	display: block;
+	position: absolute;
+	width: 5px;
+	height: 16px;
+	background-color: orange;
+	border-radius: 16px;
+	-webkit-border-radius: 16px;
+	-moz-border-radius: 16px;
+	box-shadow: inset 0 1px 2px darkblue, inset 0 -1px 2px darkblue;
+	-webkit-box-shadow: inset 0 1px 2px darkblue, inset 0 -1px 2px darkblue;
+	-moz-box-shadow: inset 0 1px 2px darkblue, inset 0 -1px 2px darkblue;
+}
+#googleprogressbar{
+	float:right;
+	margin-right:0;
+	width:100px;
+	height:16px;
+	background-color:cyan;
+	border-radius:16px;
+	-webkit-border-radius: 16px;
+	-moz-border-radius: 16px;
+	box-shadow: inset 0 1px 2px darkblue,inset 0 1px 2px darkblue;
+	-webkit-box-shadow: inset 0 1px 2px darkblue, 0 1px 2px darkblue;
+	-moz-box-shadow: inset 0 1px 2px darkblue, 0 1px 2px darkblue;
+}
+#googleprogressbar::before { 
+	content: '';
+	display: block;
+	position: absolute;
+	width: 70px;
+	height: 16px;
+	background-color: orange;
+	border-radius: 16px;
+	-webkit-border-radius: 16px;
+	-moz-border-radius: 16px;
+	box-shadow: inset 0 1px 2px darkblue, inset 0 -1px 2px darkblue;
+	-webkit-box-shadow: inset 0 1px 2px darkblue, inset 0 -1px 2px darkblue;
+	-moz-box-shadow: inset 0 1px 2px darkblue, inset 0 -1px 2px darkblue;
+}
+}
+@media screen and (max-width:550px){
+	#CV{
+		height:625px;
+	}
+	footer{
+		height:300px;
+	}
+}
+@media screen and (max-width:425px){
+	#CV{
+		height:700px;
+	}
+	footer{
+		height:300px;
+	}
+}
+@media screen and (max-width:375px){
+	#CV{
+		height:750px;
+	}
+	footer{
+		height:300px;
+	}
+}
+@media screen and (max-width:360px){
+	#CV{
+		height:775px;
+	}
+	footer{
+		height:300px;
+	}
+}
+@media screen and (max-width:320px){
+	#CV{
+		height:800px;
+	}
+	footer{
+		height:300px;
+	}
+}
